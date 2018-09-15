@@ -30,12 +30,11 @@ namespace Scenario_3_2
                 }
             }
 
+            // there will be one non-empty queue
             if(q1.Count > 0)
             {
                 printQueue(q1);
-            }
-
-            if (q2.Count > 0)
+            } else 
             {
                 printQueue(q2);
             }
